@@ -1,14 +1,15 @@
 export const profile = {
   name: 'Sue Ryu',
-  title: 'Chartered Accountant | Finance & Project Management',
-  location: 'Auckland, New Zealand',
+  title: 'Delivery Enablement & Performance Specialist',
+  location: 'Mount Roskill, Auckland, New Zealand',
+  address: '24 Hardley Avenue, Mount Roskill, Auckland',
   phone: '021 075 9773',
   email: 'sue.ryu@hotmail.com',
   linkedin: 'https://www.linkedin.com/in/sue-ryu-ca-5285b1195/',
   cvUrl: '/Sue-Ryu-CV.pdf',
   cvFilename: 'Sue-Ryu-CV.pdf',
   about:
-    'Finance professional with a strong foundation in assurance and corporate reporting, now applying that rigour to project management — including leading AI integration initiatives at Air New Zealand. I bring analytical depth, stakeholder collaboration, and hands-on experience coordinating cross-functional teams through complex technology rollouts. Interested in roles spanning project management, product, PR, and communications where clarity, accountability, and practical AI adoption matter.',
+    'Finance and delivery professional with a foundation in assurance, reporting, and performance analysis. Currently a Delivery Enablement & Performance Specialist at Air New Zealand, where I support planning, delivery, and cross-functional collaboration in fast-paced environments. Previously a Finance Specialist and Senior Assurance Associate at Ernst & Young, I bring analytical rigour, stakeholder partnership, and a track record of turning financial and operational data into clear, actionable insights.',
 } as const
 
 export const navItems = [
@@ -39,7 +40,7 @@ export const education = [
   {
     id: 'bdsc',
     institution: 'Botany Downs Secondary College',
-    credential: 'NCEA',
+    credential: 'NCEA 1, 2 and 3 with Merit',
     period: '2010 – 2014',
     details: [],
   },
@@ -47,13 +48,25 @@ export const education = [
 
 export const experience = [
   {
-    id: 'airnz',
+    id: 'airnz-deps',
+    company: 'Air New Zealand',
+    role: 'Delivery Enablement & Performance Specialist',
+    period: 'Apr 2025 – Present',
+    location: 'Auckland, New Zealand',
+    highlights: [
+      'Planning and delivery support — managing competing priorities, adapting to changing business needs, and maintaining strong working relationships to deliver high-quality outcomes',
+      'Financial analysis and business insights — supporting strategic decision-making through reporting, performance analysis, and identifying opportunities to improve business outcomes',
+      'Stakeholder collaboration — partnering with cross-functional teams to solve problems, communicate insights clearly, and support delivery outcomes in fast-paced environments',
+    ],
+  },
+  {
+    id: 'airnz-fs',
     company: 'Air New Zealand',
     role: 'Finance Specialist',
     period: 'Apr 2023 – Apr 2025',
+    location: 'Auckland, New Zealand',
     highlights: [
-      'AI integration project management — led cross-functional delivery of AI integration initiatives, coordinating stakeholders, timelines, and requirements to embed AI capabilities into business workflows',
-      'Financial reporting and analysis — conducting in-depth financial analysis and reporting to support strategic decision-making and provide insights on cost management',
+      'Financial reporting and analysis — conducting in-depth financial analysis and reporting to support strategic decision-making and providing insights on cost management',
       'Budgeting and forecasting — comparing actual performance against targets to drive financial accountability and business performance',
       'Stakeholder collaboration — partnering with various squads to translate financial data into actionable insights, supporting business objectives',
     ],

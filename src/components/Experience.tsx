@@ -9,7 +9,7 @@ export function Experience() {
           id="experience"
           eyebrow="Career"
           title="Work Experience"
-          description="Roles across assurance, corporate finance, and AI integration project management — reporting, analysis, and cross-functional delivery."
+          description="Delivery enablement and finance roles at Air New Zealand, alongside assurance experience at Ernst & Young."
         />
 
         <ol className="relative space-y-8 border-l border-border pl-8">
@@ -26,6 +26,9 @@ export function Experience() {
                       {role.role}
                     </h3>
                     <p className="text-base text-accent">{role.company}</p>
+                    {'location' in role && role.location && (
+                      <p className="text-sm text-muted">{role.location}</p>
+                    )}
                   </div>
                   <time
                     dateTime={role.period}
