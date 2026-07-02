@@ -5,7 +5,7 @@ export const profile = {
   phone: '021 075 9773',
   email: 'sue.ryu@hotmail.com',
   linkedin: 'https://www.linkedin.com/in/sue-ryu-ca-5285b1195/',
-  cvUrl: '/Sue-Ryu-CV-v2.pdf',
+  cvUrl: `${import.meta.env.BASE_URL}Sue-Ryu-CV-v2.pdf`,
   cvFilename: 'Sue-Ryu-CV-v2.pdf',
   about:
     'Project manager and finance professional with a strong foundation in assurance, FP&A, and corporate reporting. At Air New Zealand, I progressed from financial analysis into project management — developing plans, aligning stakeholders, and coordinating cross-functional teams through complex delivery. Previously a Senior Assurance Associate at Ernst & Young, I bring analytical rigour, stakeholder partnership, and a track record of turning data into clear, actionable insights.',
